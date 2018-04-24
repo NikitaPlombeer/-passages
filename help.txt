@@ -1,0 +1,4 @@
+sudo tnameserv - чтобы запустисть сервис имен для корбы
+idlj -pkgPrefix Passages ru.sharadze -fall Passages.idl - генерация кода корбы
+
+Запускать клиент и сервер с аргументом SOCKET или CORBA

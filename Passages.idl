@@ -1,0 +1,11 @@
+module Passages {
+    enum BorderType {TOP, LEFT, BOTTOM, RIGHT};
+    typedef sequence<long> BackupPathesStrings;
+    interface Game {
+        string startGame(in string id);
+        long onlineCount(in string gameId);
+        BackupPathesStrings get(in string gameId);
+        boolean isMyTurn(in string id, in string gameId);
+        boolean addBorder(in long x, in long y, in BorderType type, in string id, in string gameId);
+    };
+};

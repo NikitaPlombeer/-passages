@@ -1,0 +1,17 @@
+*.iml
+.idea
+
+## Gradle
+
+/local.properties
+.gradle/
+gradle-app.setting
+/build/
+/core/build/
+/desktop/build/
+/common/build/
+/server/build/
+
+## OS Specific
+.DS_Store
+Thumbs.db
